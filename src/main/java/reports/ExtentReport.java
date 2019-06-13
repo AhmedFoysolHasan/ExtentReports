@@ -57,7 +57,7 @@ public class ExtentReport {
     @Test
     public void xfinityTitleValidation() {
         test = extent.createTest("Xfinity Title Validation");
-        Assert.assertEquals(driver.getTitle(), "Digital Cable TV, Internet and Home Phone | XFINITY");
+        Assert.assertEquals(driver.getTitle(), "Access My Account | Email | Online News | My Xfinity®");
     }
 
     @Test
